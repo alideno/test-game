@@ -9,11 +9,6 @@ public class TestGame extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
 	
-	@Override
-	public void create () {
-		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
-	}
 
 
 	
